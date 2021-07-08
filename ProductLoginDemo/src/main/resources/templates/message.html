@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+
+
+	<div>
+		<p class="text-danger">[[${title}]]</p>
+	</div>
+	<div>
+		<p class="text-warning">[[${message}]]</p>
+	</div>
+	<div>
+		<p>
+			<a th:href="@{'/login'}">Click here to login</a>
+		</p>  
+	</div>
+</body>
+</html>
